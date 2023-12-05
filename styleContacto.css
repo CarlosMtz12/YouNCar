@@ -165,3 +165,134 @@ p{
  color: #a8a8a8;
 }
 
+/* FOOTER */
+footer {
+    margin-top: 14px;
+    position: absolute;
+    background-color: var(--color-dark);
+    border-color: white;
+    color: white;
+    min-width: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    background: var(--color-dark);
+    flex-direction: column;
+    width: 600px;
+}
+
+.footer-columns ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-columns ul a {
+    color: var(--color-gris-blanco);
+    text-decoration: none;
+}
+
+.footer-columns ul a:hover {
+    text-decoration: underline;
+}
+
+.footer-columns ul li {
+    margin-bottom: 16px;
+}
+
+.logo-footer {
+    width: 80px;
+}
+
+.social-links {
+    display: flex;
+    margin-left: 40px;
+    gap: 12px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.footer-top {
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 0px;
+    justify-content: space-between;
+    border-bottom: 1px solid #596C61;
+}
+
+.footer-columns {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-columns h3 {
+    color: var(--color-gris-blanco);
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-size: 1.125rem;
+}
+
+.footer-columns>section {
+    min-width: 180px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid var(--color-gris-blanco);
+    display: flex;
+    margin-left: 260px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    padding: 16px 0px;
+    flex-wrap: wrap;
+}
+
+.footer-bottom-links {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media (max-width: 800px) {
+    .footer-bottom-links {
+        margin: 0 auto;
+    }
+}
+
+.footer-bottom-links>a {
+    color: var(--color-gris-blanco);
+    text-decoration: none;
+}
+
+.footer-bottom-links>a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom>small {
+    font-size: 16px;
+    margin: 0 4px;
+}

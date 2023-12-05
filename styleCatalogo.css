@@ -315,3 +315,25 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+
+.filtros {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    width: 150px;
+}

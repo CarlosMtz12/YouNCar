@@ -19,15 +19,47 @@
             <div class="menu">
                 <a href="home.html" class="menuItem">Home</a>
 
-                <a href="comprar.html" class="menuItem"><i class="fa-solid fa-car"></i> Autos disponibles</a>
+                <a href="catalogo.html" class="menuItem"><i class="fa-solid fa-car"></i> Autos disponibles</a>
                 <a href="contacto.html" class="menuItem"><i class="fa-solid fa-address-card"></i> Contacto</a>
-                <a href="home.html" class="menuItem"><i class="fa-solid fa-info"></i> Acerca de</a>
+                <a href="acercaDe.html" class="menuItem"><i class="fa-solid fa-info"></i> Acerca de</a>
                 <a href="login.html"><button class="ctaButton">Cerrar Sesion</button></a>
             </div>
         </div>
     </header>
-    
+
     <main>
+        <div class="filtros">
+            <label for="filtroAnio">Año:</label>
+            <select id="filtroAnio">
+                <option value="">Todos</option>
+             
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2024">2024</option>
+            </select>
+
+            <label for="filtroMarca">Marca:</label>
+            <select id="filtroMarca">
+                <option value="">Todas</option>
+             
+                <option value="BMW">BMW</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="PORSCHE">PORSCHE</option>
+            </select>
+
+            <label for="filtroPresupuesto">Presupuesto:</label>
+            <select id="filtroPresupuesto">
+                <option value="">Todos</option>
+                <option value="6000000">$6,000,000</option>
+                <option value="3000000">$3,000,000</option>
+                <option value="1000000">$1,000,000</option>
+                <option value="500000">$500,000</option>
+                <option value="350000">$350,000</option>
+                
+            </select>
+        </div>
+
+
 
         <div class="contenedor">
             <div class="tarjeta">
@@ -36,7 +68,7 @@
                     <img src="img/car2.png" alt="muestra">
                     <p>$500,000.00</p>
                     <p> SEMINUEVO / PREMIUM / GARANTÍA</p>
-                        <p> 2016 / Automática / SPORTBACK / 59000</p>
+                    <p> 2016 / Automática / SPORTBACK / 59000</p>
                 </div>
                 <div class="pie">
                     <a href="contacto.html">Lo quiero</a>
@@ -48,7 +80,7 @@
                     <img src="img/car6.png" alt="muestra">
                     <p>$350,000.00</p>
                     <p> SEMINUEVO / PREMIUM / GARANTÍA</p>
-                        <p> 2016 / Automática / 130000</p>
+                    <p> 2016 / Automática / 130000</p>
                 </div>
                 <div class="pie">
                     <a href="contacto.html">Lo quiero</a>
@@ -58,20 +90,22 @@
                 <h2 class="titulo">Mercedez E350</h2>
                 <div class="cuerpo">
                     <img src="img/car9.png" alt="muestra">
-                    <p>$200,000.00</p>
+                    <p>$1,200,000.00</p>
                     <p> USADO / PREMIUM / GARANTÍA</p>
-                        <p> 2005 / Automática / SPORTBACK / 100000</p>
+                    <p> 2005 / Automática / SPORTBACK / 100000</p>
                 </div>
                 <div class="pie">
                     <a href="contacto.html">Lo quiero</a>
                 </div>
             </div>
 
-            
+
             <div class="tarjeta">
                 <h2 class="titulo">LAMBORGHINI HURACAN</h2>
                 <div class="cuerpo">
-                    <img src="https://360motors.mx/autos/2023/lamborghini-huracan-2015-my15_id2658_2Z4N_0823.webp" alt="muestra" >
+                    <img src="https://360motors.mx/autos/2023/lamborghini-huracan-2015-my15_id2658_2Z4N_0823.webp"
+                        alt="muestra">
+                    <p>$5,550,000.00</p>
                     <p> SEMINUEVO / PREMIUM / GARANTÍA </p>
                     <p> 2015 Automática SPORT 14000</p>
                 </div>
@@ -82,7 +116,9 @@
             <div class="tarjeta">
                 <h2 class="titulo">PORSCHE CAYMAN</h2>
                 <div class="cuerpo">
-                    <img src="https://360motors.mx/autos/2023/porsche-cayman-2016-gt4_id1987_HWZH_0423.webp" alt="muestra" >
+                    <img src="https://360motors.mx/autos/2023/porsche-cayman-2016-gt4_id1987_HWZH_0423.webp"
+                        alt="muestra">
+                    <p>$3,450,000.00</p>
                     <p>SEMINUEVO / PREMIUM / GARANTÍA</p>
                     <p> 2024 Automática GT4 15000</p>
                 </div>
@@ -93,7 +129,9 @@
             <div class="tarjeta">
                 <h2 class="titulo">PORSCHE CAYMAN</h2>
                 <div class="cuerpo">
-                    <img src="https://360motors.mx/autos/2023/porsche-cayman-2008-s-coupe_id2660_ONMR_1123.webp" alt="muestra" >
+                    <img src="https://360motors.mx/autos/2023/porsche-cayman-2008-s-coupe_id2660_ONMR_1123.webp"
+                        alt="muestra">
+                    <p>$1,250,000.00</p>
                     <p> SEMINUEVO / PREMIUM / GARANTÍA</p>
                     <p> 2007 MANUAL SPORT 37000</p>
                 </div>
@@ -106,10 +144,10 @@
             <div class="tarjeta">
                 <h2 class="titulo">Tesla Model 3</h2>
                 <div class="cuerpo">
-                    <img src="img/img9.png" alt="muestra"style="height: 280px;" >
-                    <p>$200,000.00</p>
+                    <img src="img/img9.png" alt="muestra" style="height: 280px;">
+                    <p>$2,000,000.00</p>
                     <p> USADO / PREMIUM / GARANTÍA</p>
-                        <p> 2017 / Automática / SPORTBACK / 78000</p>
+                    <p> 2017 / Automática / SPORTBACK / 78000</p>
                 </div>
                 <div class="pie">
                     <a href="contacto.html">Lo quiero</a>
@@ -118,7 +156,8 @@
             <div class="tarjeta">
                 <h2 class="titulo">Masserati CX</h2>
                 <div class="cuerpo">
-                    <img src="img/img2/image1.jpg" alt="muestra"style="height: 200px;">
+                    <img src="img/img2/image1.jpg" alt="muestra" style="height: 200px;">
+                    <p>$5,550,000.00</p>
                     <p> NUEVO / PREMIUM / GARANTÍA</p>
                     <p> 2024 Automática SPORT 0</p>
                 </div>
@@ -130,6 +169,7 @@
                 <h2 class="titulo">Mazda CX</h2>
                 <div class="cuerpo">
                     <img src="img/img2/image3.jpg" alt="muestra" style="height: 200px;">
+                    <p>$6,350,000.00</p>
                     <p> NUEVO / PREMIUM / GARANTÍA / SEGURO</p>
                     <p> 2024 Automática SPORT 0</p>
                 </div>
@@ -211,6 +251,58 @@
             </section>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Obtener elementos del DOM
+            const filtroAnio = document.getElementById('filtroAnio');
+            const filtroMarca = document.getElementById('filtroMarca');
+           
+            const filtroPresupuesto = document.getElementById('filtroPresupuesto');
+            const tarjetas = document.querySelectorAll('.tarjeta');
+
+            // Agregar evento de cambio a los filtros
+            [filtroAnio, filtroMarca, filtroPresupuesto].forEach(filtro => {
+                filtro.addEventListener('change', filtrarAutos);
+            });
+
+            // Función para aplicar el filtro
+            function filtrarAutos() {
+                const filtroAnioValor = filtroAnio.value;
+                const filtroMarcaValor = filtroMarca.value;
+                const filtroPresupuestoValor = filtroPresupuesto.value;
+                console.log(filtroPresupuestoValor);
+ //filtroPresupuestoValor= 350000
+                tarjetas.forEach(tarjeta => {
+                    const anioTarjeta = tarjeta.querySelector('.cuerpo p:nth-child(4)').textContent.trim().split(' ')[0];
+                    const marcaTarjeta = tarjeta.querySelector('.titulo').textContent.trim().toUpperCase();
+                   // const presupuestoTarjeta = parseInt(tarjeta.querySelector('.cuerpo p:nth-child(2)').textContent.trim().replace('$', '').replace(',', ''));
+                   const presupuestoTarjeta = parseInt(tarjeta.querySelector('.cuerpo p:nth-child(2)').textContent.trim().replace(/[$,]/g, ''));
+
+//presupuestoTarjet = 3450000
+console.log("presupuesto tarjeya",presupuestoTarjeta);
+                    const cumpleFiltroAnio = filtroAnioValor === '' || anioTarjeta === filtroAnioValor;
+                    const cumpleFiltroMarca = filtroMarcaValor === '' || marcaTarjeta.includes(filtroMarcaValor.toUpperCase());
+                   // const cumpleFiltroPresupuesto = filtroPresupuestoValor === '' || presupuestoTarjeta >= parseInt(filtroPresupuestoValor);
+                   //const cumpleFiltroPresupuesto = filtroPresupuestoValor === '' || presupuestoTarjeta <= parseInt(filtroPresupuestoValor);
+                   const cumpleFiltroPresupuesto = filtroPresupuestoValor === '' || parseInt(filtroPresupuestoValor) >= presupuestoTarjeta;
+
+
+                    // Mostrar/ocultar tarjeta según los filtros
+                    // if (cumpleFiltroAnio && cumpleFiltroMarca && cumpleFiltroPresupuesto) {
+                    //     tarjeta.style.display = 'flex';
+                    // } else {
+                    //     tarjeta.style.display = 'none';
+                    // }
+                    if (cumpleFiltroAnio && cumpleFiltroMarca && cumpleFiltroPresupuesto) {
+                        tarjeta.style.display = 'flex';
+                    } else {
+                        tarjeta.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+
 </body>
 
 </html>
