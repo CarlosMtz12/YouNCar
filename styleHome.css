@@ -285,7 +285,7 @@ background: #1f2020;
   text-decoration: none;
   color: white;
 }
-.pie a:after {
+/* .pie a:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -293,7 +293,7 @@ background: #1f2020;
   left: 0;
   z-index: 1;
   content: ""
-}
+} */
 
 
 

@@ -115,7 +115,7 @@
     background-position-y: var(--reflection-y-position);
     animation: on-scrolling both linear;
     animation-timeline: scroll();
-    animation-range: 10vh;
+    animation-range: 7vh;
   }
   .container::before {
     background-size: 1px 150px;
@@ -132,7 +132,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 40vh; */
+    margin-top: 10vh;
     padding-bottom: 40vh;
   }
   
@@ -158,7 +158,7 @@
     --text-offset-4: 10;
     animation: on-scrolling both linear;
     animation-timeline: scroll();
-    animation-range: 10vh;
+    animation-range: 1vh;
   }
   
   p:nth-child(1) {
